@@ -123,3 +123,24 @@ header h1{
     font-size: 1.3rem;
     color: rgb(255, 255, 255);
 }
+
+.info_titulos{
+    color: #fff;
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.info_titulos .item_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_info h3{
+    font-size: 1.8rem;
+}
+
+.item_info p{
+    color: rgba(212, 212, 212, 0.774);
+}
