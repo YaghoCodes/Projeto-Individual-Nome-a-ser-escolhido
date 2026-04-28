@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    left: 0;
+    right: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #02000f;
+    background-image: url('fundo.svg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container-main h1{
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 10vh;
+}
+
+.texto-azul{
+    color: #4A9EDB;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-main h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.container-main h3 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.container-main p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box-cadastro{
+    padding:40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    width: 25%;
+}
+
+.box-cadastro form label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-cadastrar {
+    width: 100%;
+    padding: 10px;
+    background-color: #4A9EDB;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(74, 158, 219, 0.5);
+}
+
+.login-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-link a {
+    color: #4A9EDB;
+    text-decoration: none;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
